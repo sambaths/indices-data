@@ -49,7 +49,7 @@ def get_index_constituents(session, index_name):
         all_constituents = data.get("data", [])
         # Skip the first element if its symbol matches the index name.
         if all_constituents and all_constituents[0].get("symbol", "").upper() == index_name.upper():
-            constituents = all_constituents[1:]
+            constituents = all_constituents[0:]
         else:
             constituents = all_constituents
         return constituents
