@@ -105,6 +105,25 @@ def main():
         # Ensure data folder exists.
         if not os.path.exists("data"):
             os.makedirs("data")
+
+        # Convert Index column to uppercase for consistent matching
+        final_df["Index"] = final_df["Index"].str.upper()
+
+        # Identify Mid Cap and Small Cap stocks
+        midcap_stocks = set(final_df[final_df["Index"].str.contains(" MIDCAP ")]['Stock'])
+        smallcap_stocks = set(final_df[final_df["Index"].str.contains(" SMALLCAP ")]['Stock'])
+
+        # Function to classify companies
+        def classify_market_cap(stock):
+            if stock in midcap_stocks:
+                return "Mid Cap"
+            elif stock in smallcap_stocks:
+                return "Small Cap"
+            else:
+                return "Large Cap"
+
+        # Apply classification
+        final_df["Market Cap Classification"] = final_df["Stock"].apply(classify_market_cap)
         
         # Save the final DataFrame to CSV.
         final_df.to_csv("data/index_constituents.csv", index=False)
