@@ -1,7 +1,10 @@
 name: Fetch Active Stocks
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Every 10 minutes
+    # 8:30 AM to 4:30 PM IST, Monday-Friday
+    - cron: '30-59/10 8 * * 1-5'    # 8:30, 8:40, 8:50 AM IST
+    - cron: '*/10 9-15 * * 1-5'     # 9:00 AM to 3:50 PM IST
+    - cron: '0-30/10 16 * * 1-5'    # 4:00, 4:10, 4:20, 4:30 PM IST
   workflow_dispatch:        # Allow manual triggers
 
 jobs:
