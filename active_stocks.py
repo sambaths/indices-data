@@ -60,27 +60,23 @@ def main():
 
     # Aggregate reasons for each stock's inclusion
     stock_reasons = defaultdict(set)
+    all_data = pd.DataFrame()
     for category, entries in data.items():
-      print(entries)
+      category_df = pd.DataFrame()
       for entry in entries:
-          symbol = entry.get('symbol')
-          if symbol:
-              stock_reasons[symbol].add(category)
+          temp = pd.DataFrame(entry, index=[0])
+          temp['Reason'] = category
+          temp['relavant_columns'] = ", ".join(entry.keys())
+          category_df = pd.concat([category_df, temp])
+      all_data = pd.concat([all_data, category_df])
 
-    # Prepare data for DataFrame
-    rows = [{"Stock": symbol, "Purpose": ", ".join(reasons)} for symbol, reasons in stock_reasons.items()]
-
-    # Create DataFrame
-    df = pd.DataFrame(rows)
-
-    # Ensure the 'data' directory exists
     import os
     if not os.path.exists("data"):
         os.makedirs("data")
 
     # Save to CSV
     output_file = "data/active_stocks_with_reasons.csv"
-    df.to_csv(output_file, index=False)
+    all_data.to_csv(output_file, index=False)
     print(f"Data saved to {output_file}")
 
 if __name__ == "__main__":
