@@ -1,0 +1,36 @@
+name: Fetch Active Stocks
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # Every 10 minutes
+  workflow_dispatch:        # Allow manual triggers
+
+jobs:
+  analyze-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15     # Prevent hanging workflows
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests
+
+      - name: Run fetch script
+        run: |
+          python active_stocks.py
+
+      - name: Commit and push CSV file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/active_stocks_with_reasons.csv
+          git commit -m "Update Active Stocks data with Reasons" || echo "No changes to commit"
+          git push
