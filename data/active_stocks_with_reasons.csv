@@ -1,130 +1,199 @@
-Stock,Purpose
-DATAPATTNS,"Bulk Deals Data, Most Active by Value"
-INDUSINDBK,"Most Active by Value, Most Active by Volume"
-BSE,"Most Active by Value, Short Deals Data"
-BHARTIARTL,"Most Active by Value, Short Deals Data"
-HDFCBANK,Most Active by Value
-ZOMATO,"Most Active by Value, Most Active by Volume"
-INFY,"Block Deals Data, Most Active by Value"
-RELIANCE,"Most Active by Value, Short Deals Data"
-BEL,"Most Active by Value, Most Active by Volume"
-ADANIGREEN,Most Active by Value
-BAJFINANCE,Most Active by Value
-ICICIBANK,Most Active by Value
-KOTAKBANK,"Most Active by Value, Short Deals Data"
-TATAMOTORS,"Most Active by Value, Short Deals Data"
-DMART,"Volume Gainers, Most Active by Value"
-POLICYBZR,"Most Active by Value, Top Losers"
-TATASTEEL,"Most Active by Value, Most Active by Volume"
-MAZDOCK,Most Active by Value
-M&M,Most Active by Value
-TCS,Most Active by Value
-FAIRCHEMOR,"Volume Gainers, Top Gainers"
-GANDHITUBE,"Volume Gainers, Top Gainers"
-MTNL,"Volume Gainers, Bulk Deals Data, Top Gainers, Most Active by Volume"
-NETF,Volume Gainers
-HATSUN,Volume Gainers
-MRPL,"Volume Gainers, Top Gainers, Most Active by Volume"
-HONDAPOWER,Volume Gainers
-BANKNIFTY1,Volume Gainers
-GTPL,Volume Gainers
-SRGHFL,Volume Gainers
-NPBET,Volume Gainers
-HITECHCORP,"Volume Gainers, Top Gainers"
-ACEINTEG,"Volume Gainers, Bulk Deals Data"
-NDGL,Volume Gainers
-RATNAMANI,Volume Gainers
-LUMAXIND,"Volume Gainers, Top Losers"
-NACLIND,"Volume Gainers, Top Gainers"
-BIRLACORPN,Volume Gainers
-MKPL,"Volume Gainers, Top Losers"
-MOKSH,"Volume Gainers, Bulk Deals Data"
-DIVOPPBEES,Volume Gainers
-AFFLE,Volume Gainers
-MOGSEC,Volume Gainers
-AXISCETF,Volume Gainers
-IDEA,Most Active by Volume
-SEPC,"Short Deals Data, Top Gainers, Most Active by Volume"
-YESBANK,Most Active by Volume
-SUZLON,"Short Deals Data, Most Active by Volume"
-JPPOWER,Most Active by Volume
-EASEMYTRIP,Most Active by Volume
-PCJEWELLER,"Top Gainers, Most Active by Volume"
-IDFCFIRSTB,Most Active by Volume
-DISHTV,Most Active by Volume
-CANBK,Most Active by Volume
-JIOFIN,Most Active by Volume
-SAIL,Most Active by Volume
-OLAELEC,Most Active by Volume
-HCC,Most Active by Volume
-ARIHANTCAP,Top Gainers
-GRPLTD,Top Gainers
-SURAKSHA,Top Gainers
-KCPSUGIND,Top Gainers
-GEEKAYWIRE,Top Gainers
-BINANIIND,Top Gainers
-SUVEN,Top Gainers
-PASUPTAC,Top Gainers
-ABINFRA,Top Gainers
-NEULANDLAB,Top Gainers
-YATRA,Top Gainers
-HESTERBIO,Top Gainers
-PGIL,Top Losers
-UNIONGOLD,Top Losers
-USK,Top Losers
-NAGREEKEXP,Top Losers
-BANKA,Top Losers
-ASAHISONG,Top Losers
-SHANKARA,Top Losers
-GLOBUSSPR,Top Losers
-AAATECH,Top Losers
-ITDC,Top Losers
-SGLTL,Top Losers
-VIVIDHA,Top Losers
-AJOONI,Top Losers
-TATVA,Top Losers
-DANGEE,Top Losers
-RUCHINFRA,Top Losers
-STALLION,Top Losers
-AGARWALFT,Bulk Deals Data
-AKG,Bulk Deals Data
-ASHALOG,Bulk Deals Data
-BULKCORP,Bulk Deals Data
-C2C,Bulk Deals Data
-CAREERP,Bulk Deals Data
-CBAZAAR,Bulk Deals Data
-ENVIRO,Bulk Deals Data
-GENSOL,Bulk Deals Data
-KALANA,Bulk Deals Data
-KRN,Bulk Deals Data
-SENCO,Bulk Deals Data
-CUMMINSIND,Short Deals Data
-PAGEIND,Short Deals Data
-IREDA,Short Deals Data
-MSUMI,Short Deals Data
-MAHLIFE,Short Deals Data
-TATATECH,Short Deals Data
-CHOLAFIN,Short Deals Data
-SARDAEN,Short Deals Data
-GRANULES,Short Deals Data
-ABFRL,Short Deals Data
-RAMCOCEM,Short Deals Data
-PHOENIXLTD,Short Deals Data
-MCX,Short Deals Data
-GMDCLTD,Short Deals Data
-SMALLCAP,Short Deals Data
-COFORGE,Short Deals Data
-EICHERMOT,Short Deals Data
-SYRMA,Short Deals Data
-IRFC,Short Deals Data
-KALYANKJIL,Short Deals Data
-HDFCLIFE,Short Deals Data
-COALINDIA,Short Deals Data
-ACE,Short Deals Data
-CLEAN,Short Deals Data
-CAMS,Short Deals Data
-UNIONBANK,Short Deals Data
-THANGAMAYL,Short Deals Data
-BAJAJFINSV,Short Deals Data
-HEROMOTOCO,Short Deals Data
-SONACOMS,Short Deals Data
+symbol,identifier,lastPrice,pChange,quantityTraded,totalTradedVolume,totalTradedValue,previousClose,exDate,purpose,yearHigh,yearLow,change,open,closePrice,dayHigh,dayLow,lastUpdateTime,Reason,relavant_columns,companyName,volume,week1AvgVolume,week1volChange,week2AvgVolume,week2volChange,ltp,turnover,series,open_price,high_price,low_price,prev_price,net_price,trade_quantity,market_type,ca_ex_dt,ca_purpose,perChange,date,name,clientName,buySell,qty,watp,remarks
+DATAPATTNS,DATAPATTNSEQN,1651.0,4.07867364306878,12843543.0,12843543.0,21777896817.09,1586.3,23-Jul-2024,ANNUAL GENERAL MEETING/DIVIDEND - RS 6.50 PER SHARE,3655.0,1351.15,64.70000000000005,1590.0,1663.1,1740.0,1558.15,13-Mar-2025 15:59:46,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+INDUSINDBK,INDUSINDBKEQN,672.65,-1.7598948444574363,31592987.0,31592987.0,21588119876.84,684.7,28-Jun-2024,DIVIDEND - RS 16.50 PER SHARE,1576.35,606.0,-12.050000000000068,690.0,672.35,706.9,667.65,13-Mar-2025 15:59:46,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+BSE,BSEEQN,3907.0,-2.6753686727780015,3770603.0,3770603.0,14986035387.32,4014.4,14-Jun-2024,DIVIDEND - RS 15 PER SHARE,6133.4,1941.05,-107.40000000000009,4014.4,3926.25,4059.35,3900.0,13-Mar-2025 15:59:50,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+BHARTIARTL,BHARTIARTLEQN,1632.9,-0.6056548071948028,8317331.0,8317331.0,13639507933.59,1642.85,07-Aug-2024,DIVIDEND - RS 8 PER SHARE,1779.0,1151.7,-9.949999999999818,1650.8,1632.5,1656.9,1629.6,13-Mar-2025 15:59:47,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+HDFCBANK,HDFCBANKEQN,1705.0,-0.3594074160652246,7868132.0,7868132.0,13463160665.199999,1711.15,10-May-2024,DIVIDEND - RS 19.50 PER SHARE,1880.0,1421.25,-6.150000000000091,1716.05,1706.6,1720.8,1700.05,13-Mar-2025 15:59:24,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+ZOMATO,ZOMATOEQN,202.5,-1.4406697167331879,60780855.0,60780855.0,12398078802.9,205.46,,,304.7,144.3,-2.960000000000008,208.2,201.43,208.6,200.2,13-Mar-2025 15:59:57,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+INFY,INFYEQN,1579.0,-0.7448848100072232,7822888.0,7822888.0,12378233911.279999,1590.85,29-Oct-2024,INTERIM DIVIDEND - RS 21 PER SHARE,2006.45,1358.35,-11.849999999999909,1599.25,1579.85,1606.05,1570.3,13-Mar-2025 15:59:45,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+RELIANCE,RELIANCEEQN,1246.65,-0.8273338371584156,9505270.0,9505270.0,11921699739.4,1257.05,28-Oct-2024,BONUS 1:1,1608.8,1156.0,-10.399999999999864,1260.05,1247.9,1264.15,1243.85,13-Mar-2025 15:59:58,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+BEL,BELEQN,280.1,1.1812303579814467,38015489.0,38015489.0,10739755797.39,276.83,11-Mar-2025,INTERIM DIVIDEND - RS 1.5 PER SHARE,340.5,179.1,3.2700000000000387,283.0,280.07,285.8,279.42,13-Mar-2025 15:59:57,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+ADANIGREEN,ADANIGREENEQN,871.9,2.1618138145175383,11779180.0,11779180.0,10366856318.0,853.45,14-Jun-2024,ANNUAL GENERAL MEETING,2174.1,758.0,18.449999999999932,874.0,873.65,896.85,858.0,13-Mar-2025 15:59:58,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+BAJFINANCE,BAJFINANCEEQN,8415.0,-0.8185563000548146,1217351.0,1217351.0,10312533352.79,8484.45,21-Jun-2024,DIVIDEND - RS 36 PER SHARE,8739.0,6297.8,-69.45000000000073,8500.0,8420.45,8560.0,8393.0,13-Mar-2025 15:59:29,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+ICICIBANK,ICICIBANKEQN,1248.65,0.37782869086378434,8132940.0,8132940.0,10173982622.4,1243.95,12-Aug-2024,DIVIDEND - RS 10 PER SHARE,1362.35,1048.1,4.7000000000000455,1251.05,1250.05,1255.6,1245.3,13-Mar-2025 15:59:57,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+KOTAKBANK,KOTAKBANKEQN,1981.5,-0.05296209427252551,4925794.0,4925794.0,9777504058.24,1982.55,19-Jul-2024,DIVIDEND - RS 2 PER SHARE,1997.7,1543.85,-1.0499999999999545,1975.7,1985.1,1993.35,1969.55,13-Mar-2025 15:59:33,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+TATAMOTORS,TATAMOTORSEQN,654.7,-2.0350142151728132,14004345.0,14004345.0,9217239748.65,668.3,11-Jun-2024,DIVIDEND - RS 3 PER SHARE & SPECIAL DIVIDEND - RS 3 PER SHARE,1179.0,606.3,-13.599999999999909,670.65,655.5,671.85,649.6,13-Mar-2025 15:59:42,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+DMART,DMARTEQN,3794.1,3.263295411245988,2325270.0,2325270.0,8887344708.9,3674.2,09-Aug-2021, ANNUAL GENERAL MEETING,5484.85,3340.0,119.90000000000009,3681.0,3797.1,3877.05,3670.0,13-Mar-2025 15:59:27,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+POLICYBZR,POLICYBZREQN,1322.8,-5.897417656683509,6227774.0,6227774.0,8346026770.620001,1405.7,,,2246.9,1035.05,-82.90000000000009,1419.7,1331.9,1420.0,1320.0,13-Mar-2025 15:59:23,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+TATASTEEL,TATASTEELEQN,150.7,0.2661343978709097,48286431.0,48286431.0,7313945703.57,150.3,21-Jun-2024,DIVIDEND - RS 3.60 PER SHARE,184.6,122.62,0.39999999999997726,152.0,150.88,153.56,150.02,13-Mar-2025 15:59:54,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+MAZDOCK,MAZDOCKEQN,2310.25,2.4092379981382113,2934181.0,2934181.0,6784941460.780001,2255.9,27-Dec-2024,FACE VALUE SPLIT (SUB-DIVISION) - FROM RS 10/- PER SHARE TO RS 5/- PER SHARE,2930.0,897.7,54.34999999999991,2267.05,2316.0,2340.0,2235.9,13-Mar-2025 15:59:45,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+M&M,M&MEQN,2644.5,-0.33166245807108813,2446428.0,2446428.0,6466838846.64,2653.3,05-Jul-2024,ANNUAL GENERAL MEETING/DIVIDEND - RS 21.10 PER SHARE,3270.95,1788.8,-8.800000000000182,2677.1,2643.5,2686.35,2618.3,13-Mar-2025 15:59:40,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+TCS,TCSEQN,3509.05,0.08128458159832194,1693004.0,1693004.0,5933488048.84,3506.2,17-Jan-2025,INTERIM DIVIDEND - RS 10 PER SHARE SPECIAL DIVIDEND - RS 66 PER SHARE,4592.25,3457.0,2.850000000000364,3502.3,3511.05,3524.3,3484.1,13-Mar-2025 15:59:58,Most Active by Value,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+FAIRCHEMOR,,,11.16,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Fairchem Organics Limited,374497.0,82690.0,4.52888350336434,57717.0,6.488493011603147,995.0,3787.28816,,,,,,,,,,,,,,,,,,
+GANDHITUBE,,,11.34,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Gandhi Special Tubes Limited,216262.0,49468.0,4.3717554782889945,26581.0,8.135900561298962,704.0,1520.34348,,,,,,,,,,,,,,,,,,
+MTNL,,,11.47,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Mahanagar Telephone Nigam Limited,76030206.0,17783439.0,4.27533758486941,10829212.0,7.020843612051081,48.2,37414.46437,,,,,,,,,,,,,,,,,,
+NETF,,,-0.27,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Tata Nifty 50 Exchange Traded Fund,40316.0,9576.0,4.209932751347061,7690.0,5.242175614703473,239.79,96.57294,,,,,,,,,,,,,,,,,,
+HATSUN,,,0.39,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Hatsun Agro Product Limited,399117.0,97020.0,4.113726128830106,105903.0,3.7687034361632814,872.0,3485.20937,,,,,,,,,,,,,,,,,,
+MRPL,,,6.25,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Mangalore Refinery and Petrochemicals Limited,40026749.0,10560951.0,3.790070300104396,7415277.0,5.397876001297646,119.1,47695.8741,,,,,,,,,,,,,,,,,,
+HONDAPOWER,,,2.81,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Honda India Power Products Limited,68364.0,18723.0,3.6513379266143247,13295.0,5.142044813502719,1930.75,1369.77528,,,,,,,,,,,,,,,,,,
+BANKNIFTY1,,,-0.16,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Kotak Nifty Bank ETF,239498.0,67015.0,3.573775579941327,107959.0,2.218403921466919,493.03,1188.89202,,,,,,,,,,,,,,,,,,
+GTPL,,,3.57,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",GTPL Hathway Limited,762925.0,217256.0,3.511634179706559,193042.0,3.9521171806564475,110.0,824.87451,,,,,,,,,,,,,,,,,,
+SRGHFL,,,-4.59,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",SRG Housing Finance Limited,20942.0,6008.0,3.4852216748768474,5533.0,3.7845848016626005,283.0,64.18094,,,,,,,,,,,,,,,,,,
+NPBET,,,-1.06,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Tata Nifty Private Bank Exchange Traded Fund,4324.0,1274.0,3.3924368429311156,859.0,5.031417267861299,246.94,10.70925,,,,,,,,,,,,,,,,,,
+HITECHCORP,,,20.0,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Hitech Corporation Limited,258793.0,80884.0,3.199549479379162,50559.0,5.118633675507822,197.05,484.27934,,,,,,,,,,,,,,,,,,
+ACEINTEG,,,-2.43,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Ace Integrated Solutions Limited,124066.0,40096.0,3.0941621276510842,26197.0,4.735759246040683,20.9,26.17792,,,,,,,,,,,,,,,,,,
+NDGL,,,-5.45,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Naga Dhunseri Group Limited,947.0,306.0,3.0907310704960835,224.0,4.210760337927968,3282.0,32.65189,,,,,,,,,,,,,,,,,,
+RATNAMANI,,,-2.76,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Ratnamani Metals & Tubes Limited,124744.0,40566.0,3.0750571901869526,54416.0,2.292384506962017,2470.0,3098.52869,,,,,,,,,,,,,,,,,,
+LUMAXIND,,,-5.69,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Lumax Industries Limited,15270.0,5040.0,3.029521466550274,6564.0,2.326077353115908,2168.0,334.67717,,,,,,,,,,,,,,,,,,
+DMART,,,3.26,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Avenue Supermarts Limited,2325270.0,771288.0,3.0147866867957562,731626.0,3.1782204688075772,3794.1,88873.44708,,,,,,,,,,,,,,,,,,
+NACLIND,,,12.15,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",NACL Industries Limited,13577524.0,4580672.0,2.964089467381298,2550354.0,5.3237797322426825,89.25,11918.35056,,,,,,,,,,,,,,,,,,
+BIRLACORPN,,,-2.56,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Birla Corporation Limited,590348.0,200052.0,2.950966846686168,174233.0,3.3882654903115426,997.9,5835.41287,,,,,,,,,,,,,,,,,,
+MKPL,,,-6.54,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",M K Proteins Limited,1195962.0,408335.0,2.928874576022139,316503.0,3.7786703081230724,6.14,73.43206,,,,,,,,,,,,,,,,,,
+MOKSH,,,-1.18,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Moksh Ornaments Limited,716597.0,245187.0,2.9226501851237052,283147.0,2.530829381618247,12.6,90.5062,,,,,,,,,,,,,,,,,,
+DIVOPPBEES,,,-0.4,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Nippon India ETF Nifty Dividend Opportunities 50,226193.0,77682.0,2.9117588752178736,72998.0,3.0985894269350003,72.25,163.92206,,,,,,,,,,,,,,,,,,
+AFFLE,,,-1.13,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Affle (India) Limited,925029.0,318200.0,2.9070678818353235,289725.0,3.192776199272691,1430.5,13385.07712,,,,,,,,,,,,,,,,,,
+MOGSEC,,,-0.69,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",Motilal Oswal Mutual Fund - Motilal Oswal 5 Year G Sec ETF - Growth,3942.0,1394.0,2.8266169510970887,3677.0,1.0719530102790014,58.97,2.32499,,,,,,,,,,,,,,,,,,
+AXISCETF,,,-0.98,,,,,,,,,,,,,,,Volume Gainers,"symbol, companyName, volume, week1AvgVolume, week1volChange, week2AvgVolume, week2volChange, ltp, pChange, turnover",AXIS MUTUAL FUND - Axis NIFTY India Consumption ETF,2973.0,1058.0,2.8100189035916823,1092.0,2.7222781796538777,104.56,3.13859,,,,,,,,,,,,,,,,,,
+IDEA,IDEAEQN,6.98,-1.272984441301271,408690029.0,408690029.0,2877177804.16,7.07,20-Aug-2024,ANNUAL GENERAL MEETING,19.18,6.61,-0.08999999999999986,7.11,6.95,7.17,6.93,13-Mar-2025 16:00:00,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+MTNL,MTNLEQN,48.2,11.470860314523591,76030206.0,76030206.0,3741446437.26,43.24,23-Sep-2024,ANNUAL GENERAL MEETING,101.93,31.2,4.960000000000001,46.3,48.88,51.18,46.3,13-Mar-2025 15:59:53,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+SEPC,SEPCEQN,16.24,5.867014341590603,72992830.0,72992830.0,1210951049.7,15.34,20-Sep-2024,ANNUAL GENERAL MEETING,33.45,12.02,0.8999999999999986,15.9,16.42,17.49,15.65,13-Mar-2025 15:59:00,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+YESBANK,YESBANKEQN,16.2,0.3095975232198187,62477298.0,62477298.0,1016505638.4599999,16.15,03-Jun-2019, ANNUAL GENERAL MEETING/ DIVIDEND - RS 2 PER SHARE,28.55,16.02,0.05000000000000071,16.2,16.19,16.37,16.16,13-Mar-2025 15:59:53,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+ZOMATO,ZOMATOEQN,202.5,-1.4406697167331879,60780855.0,60780855.0,12398078802.9,205.46,,,304.7,144.3,-2.960000000000008,208.2,201.43,208.6,200.2,13-Mar-2025 15:59:57,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+TATASTEEL,TATASTEELEQN,150.7,0.2661343978709097,48286431.0,48286431.0,7313945703.57,150.3,21-Jun-2024,DIVIDEND - RS 3.60 PER SHARE,184.6,122.62,0.39999999999997726,152.0,150.88,153.56,150.02,13-Mar-2025 15:59:54,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+SUZLON,SUZLONEQN,54.74,1.6527390900649963,43837645.0,43837645.0,2384329511.55,53.85,03-Sep-2024,ANNUAL GENERAL MEETING,86.04,35.5,0.8900000000000006,54.35,54.58,55.0,53.62,13-Mar-2025 15:59:58,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+JPPOWER,JPPOWEREQN,13.51,-1.098096632503663,42104631.0,42104631.0,570096703.74,13.66,26-Aug-2024,ANNUAL GENERAL MEETING,23.77,12.36,-0.15000000000000036,13.79,13.45,13.88,13.36,13-Mar-2025 15:59:11,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+MRPL,MRPLEQN,119.1,6.253903113569445,40026749.0,40026749.0,4769587410.84,112.09,14-Aug-2024,ANNUAL GENERAL MEETING,259.9,98.92,7.009999999999991,112.75,119.33,121.8,110.71,13-Mar-2025 15:59:39,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+EASEMYTRIP,EASEMYTRIPEQN,12.62,0.7182761372705496,38521111.0,38521111.0,481513887.5,12.53,29-Nov-2024,BONUS 1:1,23.9,10.8,0.08999999999999986,12.55,12.59,12.64,12.26,13-Mar-2025 15:59:41,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+BEL,BELEQN,280.1,1.1812303579814467,38015489.0,38015489.0,10739755797.39,276.83,11-Mar-2025,INTERIM DIVIDEND - RS 1.5 PER SHARE,340.5,179.1,3.2700000000000387,283.0,280.07,285.8,279.42,13-Mar-2025 15:59:57,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+INDUSINDBK,INDUSINDBKEQN,672.65,-1.7598948444574363,31592987.0,31592987.0,21588119876.84,684.7,28-Jun-2024,DIVIDEND - RS 16.50 PER SHARE,1576.35,606.0,-12.050000000000068,690.0,672.35,706.9,667.65,13-Mar-2025 15:59:46,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+PCJEWELLER,PCJEWELLEREQN,14.0,6.060606060606066,29883251.0,29883251.0,408802873.68,13.2,16-Dec-2024,FACE VALUE SPLIT (SUB-DIVISION) - FROM RS 10/- PER SHARE TO RE 1/- PER SHARE,19.3,4.41,0.8000000000000007,13.2,13.97,14.1,13.0,13-Mar-2025 15:59:52,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+IDFCFIRSTB,IDFCFIRSTBEQN,53.3,-2.4345597656965134,29067199.0,29067199.0,1569919417.99,54.63,23-Jul-2018, DIVIDEND RE 0.75 PER SHARE,86.1,53.25,-1.3300000000000054,54.68,53.48,54.98,53.25,13-Mar-2025 15:59:51,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+DISHTV,DISHTVEQN,6.04,-1.3071895424836613,27761815.0,27761815.0,169347071.5,6.12,05-Nov-2018, INTERIM DIVIDEND - RE 0.50 PER SHARE,19.55,5.98,-0.08000000000000007,6.3,6.03,6.31,6.0,13-Mar-2025 15:58:14,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+CANBK,CANBKEQN,82.85,0.47295658501091514,25685980.0,25685980.0,2128597162.6000001,82.46,14-Jun-2024,DIVIDEND - RS 3.22 PER SHARE,128.9,78.6,0.39000000000000057,82.72,82.9,83.48,82.16,13-Mar-2025 15:59:52,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+JIOFIN,JIOFINEQN,223.1,-1.0774619784507635,25219084.0,25219084.0,5666980365.64,225.53,,,394.7,198.65,-2.430000000000007,227.88,222.6,228.94,221.32,13-Mar-2025 16:00:00,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+SAIL,SAILEQN,105.95,-0.6656666041627544,24988240.0,24988240.0,2693482389.6000004,106.66,19-Sep-2024,ANNUAL GENERAL MEETING,175.35,99.15,-0.7099999999999937,107.19,105.89,109.68,105.53,13-Mar-2025 15:59:06,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+OLAELEC,OLAELECEQN,50.63,-0.8421464943204067,23276276.0,23276276.0,1181038244.24,51.06,,,157.4,50.3,-0.4299999999999997,51.5,50.51,51.78,50.3,13-Mar-2025 15:59:42,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+HCC,HCCEQN,22.59,-2.038161318300082,20669516.0,20669516.0,474158697.04,23.06,10-Sep-2024,ANNUAL GENERAL MEETING,57.5,21.97,-0.46999999999999886,23.25,22.62,23.55,22.5,13-Mar-2025 15:57:57,Most Active by Volume,"symbol, identifier, lastPrice, pChange, quantityTraded, totalTradedVolume, totalTradedValue, previousClose, exDate, purpose, yearHigh, yearLow, change, open, closePrice, dayHigh, dayLow, lastUpdateTime",,,,,,,,,,,,,,,,,,,,,,,,,,
+HITECHCORP,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,197.05,484.2793409,EQ,167.0,197.05,164.0,164.21,20.0,258793.0,N,19-Jul-2024,Dividend - Re 1 Per Share,20.0,,,,,,,
+ARIHANTCAP,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,73.7,718.8774853,EQ,63.5,74.0,62.2,63.41,16.23,1049303.0,N,20-Sep-2024,Annual General Meeting/Dividend - Re 0.50 Per Share,16.23,,,,,,,
+NACLIND,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,89.25,11918.350567200001,EQ,80.01,94.0,76.33,79.58,12.15,13577524.0,N,08-Sep-2023,Annual General Meeting/Dividend - Re 0.25 Per Share,12.15,,,,,,,
+MTNL,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,48.2,37414.4643726,EQ,46.3,51.18,46.3,43.24,11.47,76030206.0,N,23-Sep-2024,Annual General Meeting,11.47,,,,,,,
+GANDHITUBE,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,704.0,1520.3434862000001,EQ,631.5,745.0,630.0,632.3,11.34,216262.0,N,05-Aug-2024,Dividend - Rs 13 Per Share,11.34,,,,,,,
+FAIRCHEMOR,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,995.0,3787.2881610000004,EQ,891.0,1049.95,891.0,895.1,11.16,374497.0,N,29-Jul-2024,Dividend - Rs 7.50 Per Sh,11.16,,,,,,,
+GRPLTD,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,2620.45,155.0683024,EQ,2412.1,2620.45,2399.65,2382.25,10.0,6142.0,N,06-Dec-2024,Extra Ordinary General Meeting,10.0,,,,,,,
+SURAKSHA,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,280.0,723.301995,EQ,260.05,284.4,256.25,259.85,7.75,262275.0,N,-,-,7.75,,,,,,,
+KCPSUGIND,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,36.54,58.773282300000005,EQ,33.95,37.65,33.92,34.01,7.44,167017.0,N,13-Sep-2024,Annual General Meeting/Dividend - Re 0.20  Per Share,7.44,,,,,,,
+GEEKAYWIRE,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,78.1,237.87898149999998,EQ,73.42,82.5,73.42,72.7,7.43,297163.0,N,05-Sep-2024,Dividend - Re 0.60 Per Share,7.43,,,,,,,
+BINANIIND,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,11.15,1.179447,EQ,11.35,11.46,10.63,10.49,6.29,10578.0,N,12-Sep-2024,Annual General Meeting,6.29,,,,,,,
+SUVEN,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,120.5,508.1269491,EQ,113.65,123.0,113.35,113.38,6.28,429633.0,N,30-Jul-2024,Annual General Meeting,6.28,,,,,,,
+MRPL,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,119.1,47695.8741084,EQ,112.75,121.8,110.71,112.09,6.25,40026749.0,N,14-Aug-2024,Annual General Meeting,6.25,,,,,,,
+PCJEWELLER,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,14.0,4088.0287368,EQ,13.2,14.1,13.0,13.2,6.06,29883251.0,N,16-Dec-2024,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,6.06,,,,,,,
+PASUPTAC,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,55.49,599.699376,EQ,53.0,57.48,53.0,52.38,5.94,1078596.0,N,13-Aug-2024,Annual General Meeting,5.94,,,,,,,
+ABINFRA,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,90.75,316.951414,EQ,86.4,93.5,83.89,85.71,5.88,350804.0,N,10-Mar-2025,Rights 1:5 @ Premium Rs 27.50/-,5.88,,,,,,,
+SEPC,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,16.24,12109.510497000001,EQ,15.9,17.49,15.65,15.34,5.87,72992830.0,N,20-Sep-2024,Annual General Meeting,5.87,,,,,,,
+NEULANDLAB,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,11599.8,5736.26252,EQ,11057.0,11699.0,10711.1,10958.15,5.86,52775.0,N,12-Jul-2024,Annual General Meeting/Dividend - Rs 14 Per Share,5.86,,,,,,,
+YATRA,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,69.8,330.16869760000003,EQ,66.45,71.0,66.13,65.98,5.79,483268.0,N,-,-,5.79,,,,,,,
+HESTERBIO,,,,,,,,,,,,,,,,,,Top Gainers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,1354.0,352.40289240000004,EQ,1287.6,1378.25,1275.0,1281.15,5.69,26468.0,N,22-Aug-2024,Annual General Meeting,5.69,,,,,,,
+PGIL,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,1362.0,5029.929693,EQ,1540.0,1600.0,1342.55,1528.1,-10.87,353151.0,N,27-Nov-2024,Interim Dividend - Rs 5 Per Share,-10.87,,,,,,,
+UNIONGOLD,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,87.0,5.6102612,EQ,89.7,89.7,85.5,95.9,-9.28,6436.0,N,-,-,-9.28,,,,,,,
+USK,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,36.93,136.31760939999998,EQ,40.3,40.79,35.5,40.34,-8.45,359962.0,N,-,-,-8.45,,,,,,,
+NAGREEKEXP,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,25.55,8.448373,EQ,29.18,29.18,25.0,27.85,-8.26,31630.0,N,11-Sep-2024,Annual General Meeting,-8.26,,,,,,,
+BANKA,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,78.6,46.2596466,EQ,84.64,88.35,78.0,84.64,-7.14,54849.0,N,01-Aug-2024,Annual General Meeting,-7.14,,,,,,,
+ASAHISONG,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,284.05,48.6303125,EQ,300.0,313.95,281.5,304.3,-6.65,16555.0,N,20-Sep-2024,Annual General Meeting/Dividend - Re 0.50 Per Share,-6.65,,,,,,,
+SHANKARA,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,501.0,471.7898328,EQ,539.1,549.5,501.0,536.45,-6.61,90376.0,N,13-Jun-2024,Annual General Meeting/Dividend - Rs 3 Per Share,-6.61,,,,,,,
+MKPL,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,6.14,73.4320668,EQ,6.6,6.6,5.91,6.57,-6.54,1195962.0,N,23-Sep-2024,Annual General Meeting,-6.54,,,,,,,
+GLOBUSSPR,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,876.9,1047.208498,EQ,930.0,937.95,866.9,937.0,-6.41,116530.0,N,22-Aug-2024,Dividend - Rs 3.50 Per Share,-6.41,,,,,,,
+AAATECH,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,67.0,37.8926182,EQ,70.5,72.01,66.0,71.57,-6.39,54202.0,N,06-Sep-2024,Annual General Meeting,-6.39,,,,,,,
+ITDC,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,576.35,1609.3736035,EQ,600.0,610.0,575.75,615.4,-6.35,270715.0,N,30-Aug-2024,Annual General Meeting,-6.35,,,,,,,
+SGLTL,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,138.26,2612.0530872,EQ,148.84,151.0,137.66,147.61,-6.33,1816196.0,N,-,-,-6.33,,,,,,,
+POLICYBZR,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,1322.8,83460.2677062,EQ,1419.7,1420.0,1320.0,1405.7,-5.9,6227774.0,N,-,-,-5.9,,,,,,,
+VIVIDHA,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,0.8,3.392588,EQ,0.85,0.89,0.8,0.85,-5.88,399128.0,N,14-Nov-2024,Extra Ordinary General Meeting,-5.88,,,,,,,
+AJOONI,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,6.29,55.49388,EQ,6.85,6.85,6.26,6.68,-5.84,853752.0,N,10-Sep-2024,Annual General Meeting,-5.84,,,,,,,
+TATVA,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,637.0,530.7199535,EQ,672.2,684.0,631.05,676.25,-5.8,81485.0,N,06-Sep-2024,Dividend - Rs 2 Per Share,-5.8,,,,,,,
+LUMAXIND,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,2168.0,334.677171,EQ,2273.05,2310.0,2148.6,2298.75,-5.69,15270.0,N,09-Sep-2024,Dividend - Rs 35 Per Share,-5.69,,,,,,,
+DANGEE,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,5.02,9.046387,EQ,5.3,5.42,4.7,5.32,-5.64,175658.0,N,19-Sep-2024,Annual General Meeting,-5.64,,,,,,,
+RUCHINFRA,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,7.43,37.6990416,EQ,7.98,8.19,7.3,7.87,-5.59,475998.0,N,16-Sep-2015,Annual General Meeting / Dividend Re 0.06/- Per Share,-5.59,,,,,,,
+STALLION,,,,,,,,,,,,,,,,,,Top Losers,"symbol, series, open_price, high_price, low_price, ltp, prev_price, net_price, trade_quantity, turnover, market_type, ca_ex_dt, ca_purpose, perChange",,,,,,,78.8,949.9056078,EQ,83.75,87.0,78.35,83.45,-5.57,1158139.0,N,-,-,-5.57,,,,,,,
+ACEINTEG,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Ace Integrated Solu. Ltd.,ANSHU AGGARWAL,SELL,108560,21.1,-
+ACEINTEG,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Ace Integrated Solu. Ltd.,ANSHUL AGGARWAL,BUY,108560,21.09,-
+AGARWALFT,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Agarwal Float Glass I Ltd,BHAVNA GROVER,BUY,39000,44,-
+AGARWALFT,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Agarwal Float Glass I Ltd,MANISH GROVER,SELL,37500,44,-
+AKG,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,AKG Exim Limited,KALAPI VINIT NAGADA,BUY,454141,13.26,-
+AKG,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,AKG Exim Limited,MLH VENTURES LLP,SELL,469374,13.26,-
+ASHALOG,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Ashapura Logistics Ltd,KINGSMAN WEALTH FUND PCC - KIF II,SELL,70000,75.5,-
+ASHALOG,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Ashapura Logistics Ltd,LC RADIANCE FUND VCC,BUY,70000,75.5,-
+BULKCORP,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Bulkcorp International L,A S ENTERPRISE,SELL,54000,70,-
+C2C,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,C2C Advanced Systems Ltd,MANSI SHARE AND STOCK ADVISORS PVT LTD,BUY,24000,290.25,-
+C2C,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,C2C Advanced Systems Ltd,MANSI SHARE AND STOCK ADVISORS PVT LTD,SELL,120600,290.25,-
+C2C,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,C2C Advanced Systems Ltd,MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED,BUY,24000,290.25,-
+C2C,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,C2C Advanced Systems Ltd,MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED,SELL,90000,290.25,-
+C2C,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,C2C Advanced Systems Ltd,PELICAN PORTFOLIO SERVICES PRIVATE LIMITED,SELL,100200,289.91,-
+C2C,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,C2C Advanced Systems Ltd,VBCUBE VENTURES FUND,BUY,84000,290.15,-
+CAREERP,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Career Point Limited,CHANDRA MOULI SARMA MAGANTI,SELL,97673,342.89,-
+CAREERP,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Career Point Limited,MAGANTI SAKET,BUY,94813,342.2,-
+CBAZAAR,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Net Avenue Technologies L,ASHOK RAMCHANDRA MITTAL,SELL,200000,6.9,-
+CBAZAAR,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Net Avenue Technologies L,NARESH RAMCHANDRA MITTAL,BUY,200000,6.9,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,AAKRAYA RESEARCH LLP,BUY,530728,1692.2,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,AAKRAYA RESEARCH LLP,SELL,530728,1693.27,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,GRAVITON RESEARCH CAPITAL LLP,BUY,684947,1692.13,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,GRAVITON RESEARCH CAPITAL LLP,SELL,684947,1693.3,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,HRTI PRIVATE LIMITED,BUY,593269,1689.05,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,HRTI PRIVATE LIMITED,SELL,568483,1689.61,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,QE SECURITIES LLP,BUY,418961,1695.16,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,QE SECURITIES LLP,SELL,426625,1699.81,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,TOWER RESEARCH CAPITAL MARKETS INDIA PRIVATE LIMITED,BUY,432899,1693.89,-
+DATAPATTNS,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Data Patterns India Ltd,TOWER RESEARCH CAPITAL MARKETS INDIA PRIVATE LIMITED,SELL,432899,1694.57,-
+ENVIRO,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Envirotech Systems Ltd,CINCO STOCK VISION LLP,SELL,100000,95.98,-
+ENVIRO,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Envirotech Systems Ltd,SETU SECURITIES PRIVATE LIMITED,BUY,100000,96,-
+GENSOL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Gensol Engineering Ltd,MANSI SHARE AND STOCK ADVISORS PVT LTD,BUY,225000,265.64,-
+GENSOL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Gensol Engineering Ltd,MANSI SHARE AND STOCK ADVISORS PVT LTD,SELL,56150,262.25,-
+GENSOL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Gensol Engineering Ltd,VIRTUE FINANCIAL SERVICES PRIVATE LIMITED,SELL,440492,265.72,-
+KALANA,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Kalana Ispat Limited,SHRISHTI AGRAWAL,BUY,66000,47.3,-
+KALANA,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Kalana Ispat Limited,SHRISHTI AGRAWAL,SELL,64000,45.46,-
+KRN,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,KRN Heat Exchange N Ref L,GRAVITON RESEARCH CAPITAL LLP,BUY,383332,967.61,-
+KRN,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,KRN Heat Exchange N Ref L,GRAVITON RESEARCH CAPITAL LLP,SELL,383332,966.64,-
+MOKSH,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Moksh Ornaments Limited,INVESTI GLOBAL OPPORTUNITY FUND PCC - CELL 1,BUY,600000,12.65,-
+MOKSH,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Moksh Ornaments Limited,PINE OAK GLOBAL FUND,SELL,588720,12.65,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,AAKRAYA RESEARCH LLP,BUY,1793582,49.32,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,AAKRAYA RESEARCH LLP,SELL,1793582,49.37,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,BIPLABCHAKRABORTY,BUY,2240110,49.37,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,BIPLABCHAKRABORTY,SELL,2240110,49.08,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED,BUY,2256786,49.57,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED,SELL,2238786,49.79,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,GRAVITON RESEARCH CAPITAL LLP,BUY,4762554,49.09,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,GRAVITON RESEARCH CAPITAL LLP,SELL,4762554,49.14,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,HRTI PRIVATE LIMITED,BUY,2250488,49.42,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,HRTI PRIVATE LIMITED,SELL,2614744,49.05,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,QE SECURITIES LLP,BUY,2713983,49.16,-
+MTNL,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Maha Tel Nigam Ltd.,QE SECURITIES LLP,SELL,2755276,49.08,-
+SENCO,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Senco Gold Limited,SARAVANA SECURITIES  D.SATHYAMOORTHI,SELL,1600000,258.8,-
+SENCO,,,,,,,,,,,,,,,,,,Bulk Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,13-Mar-2025,Senco Gold Limited,SSPL SECURITIES PRIVATE LIMITED,BUY,1600000,258.81,-
+INFY,,,,,,,,,,,,,,,,,,Block Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,Infosys Limited,GAURAV MANCHANDA,SELL,2984056,1574,
+INFY,,,,,,,,,,,,,,,,,,Block Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,Infosys Limited,SHRUTI SHIBULAL,BUY,2984056,1574,
+CUMMINSIND,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,CUMMINS INDIA LTD,,,10,,
+KOTAKBANK,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,KOTAK MAHINDRA BANK LTD,,,20,,
+PAGEIND,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,PAGE INDUSTRIES LTD,,,361,,
+RELIANCE,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,RELIANCE INDUSTRIES LTD,,,22,,
+IREDA,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,INDIAN RENEWABLE ENERGY,,,28859,,
+MSUMI,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,MOTHERSON SUMI WRNG IND L,,,1369,,
+MAHLIFE,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,MAHINDRA LIFESPACE DEVLTD,,,22,,
+SEPC,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,SEPC LIMITED,,,586075,,
+BHARTIARTL,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,BHARTI AIRTEL LIMITED,,,25,,
+TATAMOTORS,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,TATA MOTORS LIMITED,,,21,,
+TATATECH,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,TATA TECHNOLOGIES LIMITED,,,14000,,
+CHOLAFIN,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,CHOLAMANDALAM IN & FIN CO,,,6875,,
+SARDAEN,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,SARDA ENERGY & MIN LTD,,,1,,
+GRANULES,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,GRANULES INDIA LIMITED   ,,,200,,
+ABFRL,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,ADITYA BIRLA FASHION & RT,,,175,,
+BSE,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,BSE LIMITED,,,250,,
+RAMCOCEM,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,THE RAMCO CEMENTS LIMITED,,,49300,,
+PHOENIXLTD,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,THE PHOENIX MILLS LIMITED,,,90,,
+MCX,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,MULTI COMMODITY EXCHANGE OF INDIA LIMITED,,,39,,
+GMDCLTD,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,GUJARAT MINERAL DEV CORP,,,147,,
+SMALLCAP,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,MIRAEAMC - SMALLCAP,,,3672,,
+SUZLON,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,SUZLON ENERGY LIMITED,,,36,,
+COFORGE,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,COFORGE LIMITED,,,1,,
+EICHERMOT,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,EICHER MOTORS LIMITED,,,10,,
+SYRMA,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,SYRMA SGS TECHNOLOGY LTD,,,10,,
+IRFC,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,IRFC,,,52366,,
+KALYANKJIL,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,KALYAN JEWELLERS IND LTD,,,3,,
+HDFCLIFE,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,HDFC STANDARD LIFE INSURANCE COMPANY LIMITED,,,1,,
+COALINDIA,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,COALINDIA,,,100,,
+ACE,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,ACTION CONST EQUIP LTD,,,15,,
+CLEAN,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,CLEAN SCIENCE & TECH LTD,,,5,,
+CAMS,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,COMPUTER AGE MGMT SER LTD,,,6625,,
+UNIONBANK,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,UNION BANK OF INDIA,,,252225,,
+THANGAMAYL,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,THANGAMAYIL JEWELLERY LTD,,,100,,
+BAJAJFINSV,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,BAJAJ FINSERV LIMITED,,,33,,
+HEROMOTOCO,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,HERO MOTOCORP LTD,,,2,,
+SONACOMS,,,,,,,,,,,,,,,,,,Short Deals Data,"date, symbol, name, clientName, buySell, qty, watp, remarks",,,,,,,,,,,,,,,,,,,,12-Mar-2025,SONA BLW PRECISION FRGS L,,,2325,,
