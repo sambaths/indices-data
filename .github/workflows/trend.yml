@@ -19,7 +19,7 @@ env:
   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
 jobs:
-  frequent-prediction:
+  trend:
     runs-on: ubuntu-latest
     
     steps:
@@ -75,7 +75,7 @@ jobs:
     - name: Send start notification
       if: steps.market_check.outputs.run_prediction == 'true' || github.event.inputs.force_run == 'true'
       run: |
-        MESSAGE="🚀 High-Frequency Prediction Starting
+        MESSAGE="🚀 Index Forecast
         
         ⏰ Time: $(TZ='Asia/Kolkata' date)
         📊 Mode: 30-minute intervals
@@ -88,41 +88,41 @@ jobs:
           -d "text=${MESSAGE}" \
           -d "parse_mode=HTML" || echo "Failed to send start notification"
     
-    - name: Run High-Frequency Prediction
+    - name: Run trend forecast
       if: steps.market_check.outputs.run_prediction == 'true' || github.event.inputs.force_run == 'true'
       run: |
-        echo "🚀 Starting high-frequency market prediction..."
+        echo "🚀 Starting trend forecast market prediction..."
         echo "⏰ Current IST time: $(TZ='Asia/Kolkata' date)"
         
         # Set timeout for the entire prediction process (8 minutes for faster turnaround)
         timeout 480 uv run python trend.py
         
         if [ $? -eq 0 ]; then
-          echo "✅ High-frequency prediction completed successfully"
+          echo "✅ Trend forecast successfull"
         elif [ $? -eq 124 ]; then
-          echo "⏰ High-frequency prediction timed out after 8 minutes"
+          echo "⏰ trend forecast timed out after 8 minutes"
           exit 1
         else
-          echo "❌ High-frequency prediction failed"
+          echo "❌ trend forecast failed"
           exit 1
         fi
     
     - name: Skip prediction (outside market hours)
       if: steps.market_check.outputs.run_prediction == 'false' && github.event.inputs.force_run != 'true'
       run: |
-        echo "⏰ Skipping high-frequency prediction - outside market hours"
+        echo "⏰ Skipping trend forecast - outside market hours"
         echo "Current time: $(TZ='Asia/Kolkata' date)"
-        echo "High-frequency mode: 9 AM - 3:30 PM IST, Monday to Friday (every 30 minutes)"
+        echo "trend forecast mode: 9 AM - 3:30 PM IST, Monday to Friday (every 30 minutes)"
     
     
     - name: Notify on failure
       if: failure() && env.TELEGRAM_BOT_TOKEN != ''
       run: |
         # Send failure notification via curl
-        MESSAGE="🚨 High-Frequency Predictor Failed
+        MESSAGE="🚨 trend forecast Predictor Failed
         
         ⏰ Time: $(TZ='Asia/Kolkata' date)
-        🔗 Workflow: High-Frequency Market Predictor
+        🔗 Workflow: trend forecast Market Predictor
         📋 Run: ${{ github.run_number }}
         ⚡ Mode: 30-minute intervals
         
