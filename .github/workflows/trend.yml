@@ -1,0 +1,133 @@
+name: Test Market Predictor
+
+on:
+  # Manual trigger only
+  workflow_dispatch:
+    inputs:
+      notify_telegram:
+        description: 'Send Telegram notification'
+        required: false
+        default: 'true'
+        type: boolean
+
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+jobs:
+  test-prediction:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v4
+      with:
+        version: "latest"
+    
+    - name: Install dependencies
+      run: |
+        echo "📦 Installing dependencies..."
+        uv sync
+        echo "✅ Dependencies installed"
+    
+    - name: Verify environment setup
+      run: |
+        echo "🔍 Verifying environment setup..."
+        
+        # Check Python version
+        python --version
+        
+        # Check uv version
+        uv --version
+        
+        # Check if required packages are installed
+        uv run python -c "import yfinance, pandas, numpy, sklearn, ta; print('✅ All required packages available')"
+        
+        # Check Telegram bot configuration
+        if [ "${{ github.event.inputs.notify_telegram }}" == "true" ]; then
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "⚠️ Telegram credentials not set - predictions will run but no notifications will be sent"
+          else
+            echo "✅ Telegram credentials configured"
+          fi
+        else
+          echo "📝 Telegram notifications disabled for this test"
+        fi
+    
+    - name: Test data download
+      run: |
+        echo "📊 Testing data download..."
+        uv run python -c "
+        import yfinance as yf
+        import pandas as pd
+        from datetime import datetime
+        
+        # Test downloading 1-minute data
+        print('Downloading NIFTY test data...')
+        df = yf.download('^NSEI', period='1d', interval='1m', progress=False)
+        print(f'✅ Downloaded {len(df)} data points')
+        print(f'Latest timestamp: {df.index[-1] if not df.empty else \"No data\"}')
+        
+        if df.empty:
+            print('❌ No data received - this may be due to market hours or weekend')
+            exit(1)
+        else:
+            print('✅ Data download test successful')
+        "
+    
+    - name: Run test prediction
+      run: |
+        echo "🧪 Running test prediction..."
+        
+        # Disable Telegram for test if requested
+        if [ "${{ github.event.inputs.notify_telegram }}" != "true" ]; then
+          export TELEGRAM_BOT_TOKEN=""
+          export TELEGRAM_CHAT_ID=""
+          echo "📝 Telegram notifications disabled for this test"
+        fi
+        
+        # Run the prediction with timeout
+        timeout 600 uv run python system/strategy/test2.py
+        
+        if [ $? -eq 0 ]; then
+          echo "✅ Test prediction completed successfully"
+        elif [ $? -eq 124 ]; then
+          echo "⏰ Test prediction timed out after 10 minutes"
+          exit 1
+        else
+          echo "❌ Test prediction failed"
+          exit 1
+        fi
+    
+    - name: Test summary
+      if: always()
+      run: |
+        echo "📋 Test Summary:"
+        echo "Current time (IST): $(TZ='Asia/Kolkata' date)"
+        echo "Current time (UTC): $(date -u)"
+        echo "Python version: $(python --version)"
+        echo "Dependencies: ✅ Installed"
+        
+        if [ "${{ job.status }}" == "success" ]; then
+          echo "🎉 All tests passed!"
+        else
+          echo "❌ Some tests failed - check the logs above"
+        fi
+    
+    - name: Upload logs
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-logs
+        path: |
+          *.log
+          system/strategy/*.log
+        retention-days: 3
