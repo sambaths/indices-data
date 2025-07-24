@@ -121,13 +121,3 @@ jobs:
         else
           echo "❌ Some tests failed - check the logs above"
         fi
-    
-    - name: Upload logs
-      if: always()
-      uses: actions/upload-artifact@v3
-      with:
-        name: test-logs
-        path: |
-          *.log
-          system/strategy/*.log
-        retention-days: 3
