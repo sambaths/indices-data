@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 # Import the Telegram bot manager
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from telegram_bb import TelegramBotManager
+from telegram import TelegramBotManager
 
 # Load environment variables
 load_dotenv()
