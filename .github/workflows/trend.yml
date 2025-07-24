@@ -95,7 +95,7 @@ jobs:
         fi
         
         # Run the prediction with timeout
-        timeout 600 uv run python system/strategy/test2.py
+        timeout 600 uv run python trend.py
         
         if [ $? -eq 0 ]; then
           echo "✅ Test prediction completed successfully"
